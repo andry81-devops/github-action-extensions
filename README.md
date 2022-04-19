@@ -52,12 +52,14 @@ If remote repository exists but has no any branch reference, then the action scr
 
 Additionally, the action script does use `mkdir -p` bash shell command to allocate a working copy subdirectories  from the `mkdir-p` extra parameter.
 
-## <a name="known_issues">Known Issues</a>
+[Example snippet](https://github.com/andry81-devops/gh-action--git-checkout#example-snippet)
 
--
+> :information_source: See <a href="https://github.com/andry81-devops/github-accum-stats#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
 
-## <a name="known_issues_updates">Last known issues updates</a>
+## Known Issues
 
-### Updates on composite actions features:
+https://github.com/andry81-devops/github-accum-stats#known-issues
 
-https://github.com/andry81-devops/github-accum-stats/blob/master/README.md#composite_action_features_updates
+## Last known issues updates
+
+https://github.com/andry81-devops/github-accum-stats#last-known-issues-updates
