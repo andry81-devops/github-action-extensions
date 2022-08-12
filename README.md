@@ -24,11 +24,7 @@
 
 ## Tutorial to setup GitHub action extensions
 
-Other tutorials:
-
-* https://github.com/andry81-devops/github-accum-stats
-
-* https://github.com/andry81-devops/accum-content
+All tutorials: https://github.com/andry81/index#tutorials
 
 Extensions:
 
