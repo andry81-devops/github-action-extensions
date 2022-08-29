@@ -30,6 +30,8 @@ Extensions:
 
 * https://github.com/andry81-devops/gh-action--git-checkout
 
+* https://github.com/andry81-devops/gh-action--check-os-version
+
 ## gh-action--git-checkout@master
 
 Extends `actions/checkout` action script mainly to be able to checkout an empty repository with additional features.
@@ -40,9 +42,31 @@ You need simply replace the `uses` value in a workflow script:
 
 If remote repository exists but has no any branch reference, then the action script does use `mkdir` bash shell command to create a directory from the `path` parameter and `git init` to initialize a working copy.
 
-Additionally, the action script does use `mkdir -p` bash shell command to allocate a working copy subdirectories  from the `mkdir-p` extra parameter.
+Additionally, the action script does use `mkdir -p` bash shell command to allocate a working copy subdirectories from the `mkdir-p` extra parameter.
 
 [Example snippet](https://github.com/andry81-devops/gh-action--git-checkout#example-snippet)
+
+## gh-action--check-os-version@master
+
+> **Warning** Currently implemented ONLY a Linux version details check.
+
+Use set of commands and features to request OS version details:
+
+* > ${{ runner.os }}
+
+* > echo "$ImageOS: $ImageVersion"
+
+* > cat '/etc/os-release'
+
+* > lsb_release -a
+
+* > hostnamectl
+
+* > uname -r
+
+[Example snippet](https://github.com/andry81-devops/gh-action--check-os-version#example-snippet)
+
+---
 
 > **Note** See <a href="https://github.com/andry81-devops/github-accum-stats#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
 
