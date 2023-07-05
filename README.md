@@ -72,8 +72,8 @@ Use set of commands and features to request OS version details:
 
 ## Known Issues
 
-https://github.com/andry81-devops/github-accum-stats#known-issues
+https://github.com/andry81-devops/gh-known-issues#known-issues
 
 ## Last known issues updates
 
-https://github.com/andry81-devops/github-accum-stats#last-known-issues-updates
+https://github.com/andry81-devops/gh-known-issues#last-known-issues-updates
