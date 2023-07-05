@@ -22,11 +22,11 @@
 
 ---
 
-## Tutorial to setup GitHub action extensions
+# Tutorial to setup GitHub action extensions
 
 All tutorials: https://github.com/andry81/index#tutorials
 
-Extensions:
+Related actions:
 
 * https://github.com/andry81-devops/gh-action--git-checkout
 
