@@ -24,7 +24,8 @@
 
 # Tutorial to setup GitHub action extensions
 
-All tutorials: https://github.com/andry81/index#tutorials
+> [!TIP]
+> All tutorials: https://github.com/andry81/index#tutorials
 
 Related actions:
 
@@ -48,7 +49,8 @@ Additionally, the action script does use `mkdir -p` bash shell command to alloca
 
 ## gh-action--check-os-version@master
 
-> **Warning** Currently implemented ONLY a Linux version details check.
+> [!WARNING]
+> Currently implemented ONLY a Linux version details check.
 
 Use set of commands and features to request OS version details:
 
@@ -68,7 +70,8 @@ Use set of commands and features to request OS version details:
 
 ---
 
-> **Note** See <a href="https://github.com/andry81-devops/github-accum-stats#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
+> [!NOTE]
+> See <a href="https://github.com/andry81-devops/github-accum-stats#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
 
 ## Known Issues
 
